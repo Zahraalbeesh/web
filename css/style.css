@@ -1,0 +1,109 @@
+/* 
+	1-common styles
+	2-general styles
+	3- sections
+		3.0 header section
+		3.1 home section
+		3.2 about section
+		3.3 portfolio section
+		3.4 service section
+		3.5 price section
+		3.6 blog section
+		3.7 contects section
+		3.8 team section
+		3.9 footer section
+*/
+/* 1 common styles
+	-white-text
+	-overlay
+	-opacity hover
+	-header section
+	-padding layer
+	-hover effect 1 (left to right)
+	-hover effect 2 (top to bottom)
+	-container
+*/
+/* 1 common styles*/
+h1, h2, h3{
+
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+    line-height: 1.1;
+    color: #10161A;
+}
+.clear{
+	clear:both;
+}
+.container{
+	width: 85%;
+	margin:auto;
+}
+.white-text{
+	color: #fff;
+}
+.overlay{
+	background-color: #1C1D21;
+	opacity: 0.8;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+.hover-opacity:hover {
+	opacity: 0.8;
+	transform: opacity 0.3s;
+}
+.pd-y{
+	padding: 60px 0px;
+}
+.section-header{
+	text-align: center;
+}
+.section-title{
+	font-size: 36px;
+	text-transform: capitalize;
+}
+.line{
+	display: block;
+	width: 40px;
+	height: 4px;
+	background-color: var(--main-color);
+	margin: 15px auto 60px auto ;
+}
+
+body{
+	background: #fff;
+	color: #868F9B;
+	font-family: 'Varela Round', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.layer-padding {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 0px;
+	background-color: #000;
+	opacity: 0.6;
+	content: "";
+	transition: opacity 0.5s;
+}
+ul{
+	list-style: none;
+}
+/* 2 general styles*/
+:root{
+	--main-color:#6195FF;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+	}
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	font: varela round;
+}

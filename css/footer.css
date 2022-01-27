@@ -1,0 +1,36 @@
+.footer{
+    background-color: #1C1D21;
+    text-align: center;
+}
+.footer-logo{
+	margin-bottom: 40px;
+	cursor: pointer;
+}
+.footer-follow{
+	margin:   20px 0px;
+	list-style: none;
+	text-align: center;
+}
+.footer-follow li{
+	display: inline-block;
+	margin-right: 10px;
+}
+.footer-follow li a{
+	display: block;
+	width: 50px;
+	height: 50px;
+	background: var(--main-color);
+	border-radius: 3px;
+    margin-bottom: 20px;
+
+}  
+.footer-follow li a i{
+
+	 line-height: 50px;
+}
+.copy-right{
+	text-transform: uppercase;
+}
+.copy-right a{
+	color: #6195ff;
+}

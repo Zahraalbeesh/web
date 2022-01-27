@@ -1,0 +1,53 @@
+
+/* 3.4 service section*/
+.serv-item{
+	width: 31.5%;
+	height: 200px;
+	position: relative;
+	margin: 15px 0px;
+}
+.mag{
+	margin-left:  2.5%;
+	margin-right:  2.5%;
+}
+.ser-icon{
+	display: inline-block;
+    color: var(--main-color);
+    position: absolute;
+    font-size: 32px;
+    left: 30px;
+    top: 40px;
+}
+.serv-item .item-title{
+	color: #000;
+	text-transform: capitalize;
+	margin-top:40px ;
+	margin-left: 80px;
+	font-size: 21px;
+}
+.serv-item > p{
+	margin:20px;
+	margin-left: 80px;
+	color: #868F9B;
+	font-family: 'Varela Round', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.serv-item:after{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 0px;
+	background-color: #000;
+	opacity: 0.9;
+	transition: width 0.3s;
+	content: "";
+	z-index: -1;
+}
+.serv-item:hover:after{
+	width: 100%;
+}
+.serv-item:hover .item-title{
+	color: #fff;
+}

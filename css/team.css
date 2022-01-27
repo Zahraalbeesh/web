@@ -1,0 +1,25 @@
+
+/* 3.6 team section*/
+.team{
+	width: 31.5%;
+	height: 450px;
+	background-color: #F4F4F4;
+	text-align: center;
+	position: relative;
+	margin-top: 15px;
+}
+.team img{
+	display: inline-block;
+	width: 90%;
+	height: 90%;
+	margin: 40px auto 10px;
+}
+.team>h3{
+	font-size: 21px;
+}
+.team>span{
+	display: inline-block;
+	margin-top: 10px;
+	font-size: 14px;
+	text-transform: uppercase;
+}

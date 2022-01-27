@@ -1,0 +1,48 @@
+/* 3.8contects section*/
+.contact{
+	width: 31.5%;
+	height: 150px;
+	text-align: center;
+}
+.contact i{
+	color: var(--main-color);
+	font-size: 36px;
+	margin: 20px 0px;
+	display: inline-block;
+}
+.contact h3{
+	margin-bottom: 20px;
+}
+.align{
+		text-align: center;
+}
+ form{
+	margin: 40px auto 20px;
+}
+ .input{
+	width: 32%;
+	margin: 0px 5px 10px;
+	height: 40px;
+	background-color: #F4F4F4;
+	border:none;
+	color: #354052;
+	padding: 10px;
+	font-size: 16px;
+	opacity: 0.7;
+}
+ .input-fw{
+ 	width: 65%;
+ }
+ textarea{
+ 	resize: vertical;
+    min-height: 80px;
+ }
+.align button{
+	width: 180px;
+	height: 45px;
+	background: var(--main-color);
+	border:2px solid transparent;
+	border-radius: 3px;
+	transition: 0.2s opacity;
+	cursor: pointer;
+}

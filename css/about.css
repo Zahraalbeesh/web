@@ -1,0 +1,54 @@
+
+/* 3.2 about section*/
+.about{
+	position: relative;
+	text-align: center;
+}.about-item{
+	text-align: center;
+	width: 31%;
+	padding: 44px 27px;
+	font-family: 'Montserrat', sans-serif;
+}
+.mg{
+	margin: 0px 3.5%;
+}
+.icon{
+	color: var(--main-color);
+
+}
+.about-item .item-title{
+	text-transform: capitalize;
+	margin: 20px auto;
+	color: #000;
+}
+.about-item p{
+	color: #868F9B;
+	margin-bottom: 10px;
+	font-size: 16px;
+    line-height: 1.6;
+}
+.about a{
+	color: var(--main-color);
+	font-size: 16px;
+}
+.ltr{
+	position: relative;
+}
+.ltr:after{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 0px;
+	background-color: #000;
+	opacity: 0.9;
+	transition: width 0.3s;
+	content: "";
+	z-index: -1;
+}
+.ltr:hover:after{
+	width: 100%;
+}
+.ltr:hover .item-title{
+	color: #fff;
+}

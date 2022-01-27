@@ -1,0 +1,40 @@
+
+.why{
+    padding-bottom: 120px;
+    padding-top: 120px;
+    position: relative;
+    
+}
+.why-content{
+	left: 7.5%;
+	width: 40%;
+	position: absolute;
+}
+.why-title{
+	margin-left: 0px;
+
+}
+.left-line{
+	display: inline-block;
+	height: 3px;
+	width: 40px;
+	background: var(--main-color);
+}
+.why-content > p{
+	margin-top: 70px;
+	margin-left: 0px;
+}
+.why img{
+	width: 47.5%;
+	margin-left: 52%;
+}
+.feature{
+	margin: 15px 0px;
+}
+.why-content i{
+	border: 1px solid var(--main-color);
+	padding: 5px;
+	color: var(--main-color);
+	border-radius: 50%;
+	margin: 0px 5px;	
+}

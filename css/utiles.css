@@ -1,0 +1,21 @@
+.uppercase{
+	text-transform: uppercase;
+}
+.float-l{
+	float: left;
+}
+.display-inb{
+	display: inline-block;
+}
+.bg-gray{
+	background-color: #fafafa;
+}
+.border-b-t{
+
+	border-bottom: 1px solid #EEE;
+	border-top: 1px solid #EEE;
+}
+.border{
+	border: 1px solid #EEE;
+
+}
